@@ -329,3 +329,5 @@ then(onFulfilled, onRejected) {
 * [Promise面试题](https://github.com/olifer655/promise/issues/1)
 
 * [await](https://github.com/olifer655/promise/issues/2)
+
+* [你不知道的Promise以及JS的事件循环](https://github.com/olifer655/promise/issues/3)
