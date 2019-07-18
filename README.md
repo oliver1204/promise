@@ -326,5 +326,6 @@ then(onFulfilled, onRejected) {
 
 2. 被观察者管理内部pending、fulfilled和rejected的状态转变，同时通过构造函数中传递的resolve和reject方法以主动触发状态转变和通知观察者。
 
-[Promise面试题](https://github.com/olifer655/promise/issues/1)
-[await](https://github.com/olifer655/promise/issues/2)
+* [Promise面试题](https://github.com/olifer655/promise/issues/1)
+
+* [await](https://github.com/olifer655/promise/issues/2)
