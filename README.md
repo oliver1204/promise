@@ -325,3 +325,6 @@ then(onFulfilled, onRejected) {
 1. 通过Promise.then和Promise.catch方法将观察者方法注册到被观察者Promise对象中，同时返回一个新的Promise对象，以便可以链式调用。
 
 2. 被观察者管理内部pending、fulfilled和rejected的状态转变，同时通过构造函数中传递的resolve和reject方法以主动触发状态转变和通知观察者。
+
+[Promise面试题](https://github.com/olifer655/promise/issues/1)
+[await](https://github.com/olifer655/promise/issues/2)
