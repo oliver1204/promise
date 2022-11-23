@@ -12,10 +12,10 @@ function isPromise(value){
 Promise.all = function(values){
     return new Promise((resolve,reject)=>{
         let arr = []; // arr[3] = 2  arr.length = 4
-        let i = 0;
+        let resultIndex = 0;
         let processData = (key,value)=>{
             arr[key] = value; // after函数
-            if(++i === values.length){
+            if(++resultIndex === values.length){
                 resolve(arr);
             }
         }
@@ -23,10 +23,10 @@ Promise.all = function(values){
             let current = values[i];
             if(isPromise(current)){
                 current.then(y=>{
-                    processData(i,y);
+                    processData(resultIndex,y);
                 },reject);
             }else{
-                processData(i,current);
+                processData(i]resultIndex,current);
             }
         }
     })
